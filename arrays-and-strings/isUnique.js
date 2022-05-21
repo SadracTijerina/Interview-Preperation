@@ -8,7 +8,7 @@ const isUnique = (s) => {
   const chars = {};
 
   for (let i = 0; i < s.length; i++) {
-    let letter = s(i); // a
+    let letter = s(i);
 
     if (chars[letter]) {
       return false;
